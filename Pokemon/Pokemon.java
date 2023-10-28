@@ -69,11 +69,6 @@ public abstract class Pokemon {
         System.out.printf("%s tiene ahora %d puntos de vida\n", pokemon.getNombre(), getSp());
     }
 
-    private double calcularBonificacion(Movimiento movimiento, Pokemon pokemon) {
-        double bonificacion = 1.0;
-        return bonificacion;
-    }
-
     private void calcularDanio(Pokemon pokemon, int danio, double efectividad) {
         double B = calcularBonificacion(movimiento, pokemon);
         double E = efectividad;
