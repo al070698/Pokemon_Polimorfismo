@@ -31,10 +31,8 @@ public class Pikachu extends Pokemon {
 
     @Override
     public double calcularBonificacion(Pokemon pokemon, int pos) {
-        double bonificacion = 1.0; // Valor predeterminado
+        double bonificacion = 1.0;
         Movimiento movimiento = this.getMovimientos(pos);
-
-        // Lógica para calcular la bonificación según las reglas dadas
         Tipo tipoMovimiento = movimiento.getTipo();
         if (this.getTipo() == tipoMovimiento) {
             bonificacion = 1.5;
