@@ -1,4 +1,6 @@
-package pokemon;
+import pokemon.Pokemon;
+import pokemon.Pikachu;
+import pokemon.Bulbasaur;
 
 public class BatallaPokemon {
     public static void main(String[] args) {
